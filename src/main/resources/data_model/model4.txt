@@ -1,0 +1,51 @@
+Sure, here are some additional classes and properties for a human resource management system:
+
+Recruitment
+
+recruitment_id (string): Unique identifier for a recruitment process
+job_posting_id (string): Identifier for the job posting associated with the recruitment
+applicant_id (string): Identifier for the applicant being considered for the job
+status (string): Status of the recruitment process (e.g. pending, interview scheduled, rejected)
+interview_date (date): Date of the scheduled interview
+Applicant
+
+applicant_id (string): Unique identifier for an applicant
+first_name (string): Applicant's first name
+last_name (string): Applicant's last name
+email (string): Applicant's email address
+phone (string): Applicant's phone number
+resume (string): Link or attachment to the applicant's resume or CV
+cover_letter (string): Link or attachment to the applicant's cover letter
+status (string): Status of the applicant (e.g. new, contacted, interviewed, rejected)
+Performance Review
+
+review_id (string): Unique identifier for a performance review
+employee_id (string): Identifier for the employee being reviewed
+reviewer_id (string): Identifier for the reviewer conducting the performance review
+review_date (date): Date of the performance review
+review_rating (int): Rating or score given to the employee's performance
+review_comments (string): Comments or feedback provided by the reviewer
+Complaint
+
+complaint_id (string): Unique identifier for a complaint
+employee_id (string): Identifier for the employee who made the complaint
+complaint_type (string): Type of complaint (e.g. harassment, discrimination)
+complaint_date (date): Date the complaint was made
+complaint_description (string): Description of the complaint
+status (string): Status of the complaint (e.g. pending, under investigation, resolved)
+Offboarding
+
+offboarding_id (string): Unique identifier for an offboarding process
+employee_id (string): Identifier for the employee being offboarded
+exit_date (date): Date of the employee's last day of work
+reason (string): Reason for the employee's departure
+status (string): Status of the offboarding process (e.g. pending, exit interview scheduled, complete)
+Contract
+
+contract_id (string): Unique identifier for a contract
+employee_id (string): Identifier for the employee covered by the contract
+start_date (date): Start date of the contract
+end_date (date): End date of the contract
+contract_type (string): Type of contract (e.g. full-time, part-time, fixed-term)
+salary (float): Employee's salary or hourly rate under the contract
+Note: The specific classes and properties included in a human resource management system will depend on the needs of the organization using the system. The examples provided here are not an exhaustive list and can be customized as necessary.

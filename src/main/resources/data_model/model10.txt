@@ -1,0 +1,70 @@
+2 / 2
+
+Sure, here's the complete human resource management system class and property schema:
+
+Employee
+
+employee_id (string): Unique identifier for an employee
+first_name (string): First name of the employee
+last_name (string): Last name of the employee
+email (string): Email address of the employee
+phone_number (string): Phone number of the employee
+hire_date (date): Date on which the employee was hired
+job_title (string): Job title of the employee
+salary (float): Annual salary of the employee
+department (department object): Department to which the employee belongs
+manager (employee object): Manager of the employee
+direct_reports (list of employee objects): List of employees who report directly to the employee
+Department
+
+department_id (string): Unique identifier for a department
+department_name (string): Name of the department
+department_description (string): Description of the department
+department_head (employee object): Head of the department
+employees (list of employee objects): List of employees who belong to the department
+Job Opening
+
+job_id (string): Unique identifier for a job opening
+job_title (string): Title of the job opening
+job_description (string): Description of the job opening
+job_requirements (string): Requirements for the job opening
+job_location (string): Location of the job opening
+job_salary (float): Annual salary for the job opening
+job_status (string): Status of the job opening (e.g. open, closed, filled)
+Job Application
+
+application_id (string): Unique identifier for a job application
+applicant_name (string): Name of the job applicant
+applicant_email (string): Email address of the job applicant
+applicant_phone_number (string): Phone number of the job applicant
+application_date (date): Date on which the job application was submitted
+application_status (string): Status of the job application (e.g. received, under review, rejected, hired)
+resume_url (string): URL or file path for the job applicant's resume
+cover_letter (string): Cover letter submitted by the job applicant
+Training Course
+
+course_id (string): Unique identifier for a training course
+course_name (string): Name of the training course
+course_description (string): Description of the training course
+course_duration (float): Duration of the training course in hours
+course_instructor (string): Instructor or trainer for the training course
+course_location (string): Location where the training course will be conducted
+attendees (list of employee objects): List of employees who will be attending the training course
+completion_certificates (list of completion_certificate objects): List of completion certificates for the training course
+Completion Certificate
+
+certificate_id (string): Unique identifier for a completion certificate
+course_id (string): Identifier for the training course for which the completion certificate was earned
+employee_id (string): Identifier for the employee who earned the completion certificate
+completion_date (date): Date on which the completion certificate was earned
+certificate_url (string): URL or file path for the completion certificate
+Leave Request
+
+leave_request_id (string): Unique identifier for a leave request
+employee_id (string): Identifier for the employee requesting leave
+leave_type (string): Type of leave being requested (e.g. vacation, sick leave, bereavement leave)
+leave_start_date (date): Date on which the leave starts
+leave_end_date (date): Date on which the leave ends
+leave_duration (float): Duration of the leave in hours or days
+leave_reason (string): Reason for requesting the leave
+leave

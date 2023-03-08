@@ -1,0 +1,43 @@
+Sure, here are some more additional properties and classes that could be added to the human resource management system schema:
+
+Training Programs
+
+program_id (string): Unique identifier for a training program
+program_name (string): Name of the training program
+program_description (string): Description of the training program
+program_start_date (date): Start date for the training program
+program_end_date (date): End date for the training program
+program_cost (float): Cost of the training program
+program_instructor (string): Name of the instructor or trainer for the program
+program_location (string): Location of the training program
+Vacation and Time Off
+
+timeoff_id (string): Unique identifier for a time off request
+employee_id (string): Identifier for the employee requesting time off
+timeoff_start_date (date): Start date for the time off request
+timeoff_end_date (date): End date for the time off request
+timeoff_type (string): Type of time off requested (e.g. vacation, sick leave, personal day)
+timeoff_status (string): Status of the time off request (e.g. approved, pending, declined)
+Employee Benefits Enrollment
+
+enrollment_id (string): Unique identifier for a benefit enrollment record
+employee_id (string): Identifier for the employee enrolling in benefits
+enrollment_date (date): Date on which the employee enrolled in benefits
+benefit_id (string): Identifier for the benefit program being enrolled in
+enrollment_status (string): Status of the benefit enrollment (e.g. active, pending, declined)
+Employee Development Plans
+
+plan_id (string): Unique identifier for an employee development plan
+employee_id (string): Identifier for the employee the development plan is for
+plan_start_date (date): Start date for the development plan
+plan_end_date (date): End date for the development plan
+plan_description (string): Description of the development plan
+plan_goals (list of strings): Goals for the employee's professional development
+Employee Files
+
+file_id (string): Unique identifier for an employee file
+employee_id (string): Identifier for the employee the file is for
+file_name (string): Name of the file
+file_description (string): Description of the file
+file_type (string): Type of file (e.g. resume, performance review, disciplinary action)
+These additional classes and properties can help manage employee training, time off requests, benefits enrollment, development plans, and employee files.

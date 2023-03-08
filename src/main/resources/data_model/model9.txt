@@ -1,0 +1,46 @@
+Sure, here is the completed human resource management system class and property schema:
+
+Employee
+
+employee_id (string): Unique identifier for an employee
+first_name (string): First name of the employee
+last_name (string): Last name of the employee
+email (string): Email address of the employee
+phone_number (string): Phone number of the employee
+hire_date (date): Date on which the employee was hired
+department (department object): Department to which the employee belongs
+job_title (string): Title of the employee's job
+salary (float): Salary of the employee
+manager (employee object): Employee who is the manager of this employee
+performance_reviews (list of performance_review objects): List of performance reviews for the employee
+time_off_requests (list of time_off_request objects): List of time off requests submitted by the employee
+payroll_records (list of payroll_record objects): List of payroll records for the employee
+performance_goals (list of performance_goal objects): List of performance goals for the employee
+skills (list of skill objects): List of skills possessed by the employee
+education (list of education objects): List of educational qualifications of the employee
+certifications (list of certification objects): List of certifications earned by the employee
+emergency_contacts (list of emergency_contact objects): List of emergency contacts for the employee
+Department
+
+department_id (string): Unique identifier for a department
+department_name (string): Name of the department
+department_head (employee object): Employee who is the head of the department
+employees (list of employee objects): List of employees who belong to the department
+Performance Review
+
+performance_review_id (string): Unique identifier for a performance review
+employee_id (string): Identifier for the employee who is being reviewed
+reviewer (employee object): Employee who is conducting the performance review
+review_date (date): Date on which the performance review was conducted
+review_notes (string): Notes on the employee's performance during the review
+review_rating (float): Rating of the employee's performance during the review on a scale of 0 to 5
+Time Off Request
+
+time_off_request_id (string): Unique identifier for a time off request
+employee_id (string): Identifier for the employee requesting time off
+start_date (date): Date on which the time off starts
+end_date (date): Date on which the time off ends
+time_off_type (string): Type of time off being requested (e.g. vacation, sick leave, bereavement leave)
+time_off_reason (string): Reason for requesting the time off
+time_off_status (string): Status of the time off request (e.g. pending, approved, rejected)
+approver

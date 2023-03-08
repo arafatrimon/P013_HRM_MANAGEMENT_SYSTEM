@@ -1,0 +1,52 @@
+Sure, here are some additional classes and properties that can be added to the human resource management system schema:
+
+Training Course
+
+course_id (string): Unique identifier for a training course
+course_name (string): Name of the training course
+course_description (string): Description of the training course
+course_duration (float): Duration of the training course in hours
+course_instructor (string): Instructor or trainer for the training course
+course_location (string): Location where the training course will be conducted
+attendees (list of employee objects): List of employees who will be attending the training course
+completion_certificates (list of completion_certificate objects): List of completion certificates for the training course
+Completion Certificate
+
+certificate_id (string): Unique identifier for a completion certificate
+course_id (string): Identifier for the training course for which the completion certificate was earned
+employee_id (string): Identifier for the employee who earned the completion certificate
+completion_date (date): Date on which the completion certificate was earned
+certificate_url (string): URL or file path for the completion certificate
+Leave Request
+
+leave_request_id (string): Unique identifier for a leave request
+employee_id (string): Identifier for the employee requesting leave
+leave_type (string): Type of leave being requested (e.g. vacation, sick leave, bereavement leave)
+leave_start_date (date): Date on which the leave starts
+leave_end_date (date): Date on which the leave ends
+leave_duration (float): Duration of the leave in hours or days
+leave_reason (string): Reason for requesting the leave
+leave_status (string): Status of the leave request (e.g. pending, approved, rejected)
+approver_id (string): Identifier for the person who approved or rejected the leave request
+Performance Goal
+
+performance_goal_id (string): Unique identifier for a performance goal
+employee_id (string): Identifier for the employee for whom the performance goal is set
+goal_description (string): Description of the performance goal
+goal_start_date (date): Date on which the performance goal starts
+goal_end_date (date): Date on which the performance goal ends
+goal_progress (float): Progress made towards achieving the performance goal on a scale of 0 to 1
+goal_status (string): Status of the performance goal (e.g. not started, in progress, achieved)
+Payroll Record
+
+payroll_record_id (string): Unique identifier for a payroll record
+employee_id (string): Identifier for the employee for whom the payroll record is created
+pay_period_start_date (date): Start date of the pay period for which the payroll record is created
+pay_period_end_date (date): End date of the pay period for which the payroll record is created
+pay_amount (float): Amount paid to the employee for the pay period
+deductions (list of deduction objects): List of deductions from the employee's pay for the pay period
+Deduction
+
+deduction_id (string): Unique identifier for a deduction
+deduction_type (string): Type of deduction (e.g. taxes, retirement contributions, insurance premiums)
+deduction_amount (float): Amount of the deduction

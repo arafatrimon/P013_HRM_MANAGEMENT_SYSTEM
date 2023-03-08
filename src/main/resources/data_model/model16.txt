@@ -1,0 +1,46 @@
+Here are some more additional properties and classes that could be added to the human resource management system schema:
+
+Performance Reviews
+
+review_id (string): Unique identifier for a performance review
+employee_id (string): Identifier for the employee receiving the review
+reviewer_id (string): Identifier for the employee giving the review
+review_date (date): Date on which the review was conducted
+review_rating (integer): Numeric rating of the employee's performance (e.g. 1-5)
+review_comments (string): Comments on the employee's performance
+Job Postings
+
+posting_id (string): Unique identifier for a job posting
+job_title (string): Title of the job being posted
+job_description (string): Description of the job being posted
+job_requirements (list of strings): Requirements for the job (e.g. education, experience)
+posting_date (date): Date on which the job posting was created
+posting_status (string): Status of the job posting (e.g. active, closed)
+Payroll
+
+payroll_id (string): Unique identifier for a payroll record
+employee_id (string): Identifier for the employee receiving the payroll
+pay_period_start (date): Start date for the pay period
+pay_period_end (date): End date for the pay period
+pay_rate (float): Hourly, weekly, or monthly pay rate for the employee
+hours_worked (float): Total hours worked by the employee during the pay period
+overtime_hours (float): Total overtime hours worked by the employee during the pay period
+gross_pay (float): Total gross pay for the employee during the pay period
+taxes_deducted (float): Total taxes deducted from the employee's pay during the pay period
+net_pay (float): Total net pay for the employee during the pay period
+Benefits
+
+benefit_id (string): Unique identifier for a benefit program
+benefit_name (string): Name of the benefit program
+benefit_description (string): Description of the benefit program
+benefit_start_date (date): Start date for the benefit program
+benefit_end_date (date): End date for the benefit program
+benefit_cost (float): Cost of the benefit program
+benefit_type (string): Type of benefit program (e.g. health insurance, retirement plan)
+Terminations
+
+termination_id (string): Unique identifier for a termination record
+employee_id (string): Identifier for the employee being terminated
+termination_date (date): Date on which the termination occurred
+termination_reason (string): Reason for the termination (e.g. resignation, layoff, termination)
+These additional classes and properties can help manage various aspects of employee performance, job postings, payroll, benefits, and terminations.

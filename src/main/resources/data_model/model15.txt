@@ -1,0 +1,41 @@
+Here are some more additional properties and classes that could be added to the human resource management system schema:
+
+Time Off Requests
+
+request_id (string): Unique identifier for a time off request
+employee_id (string): Identifier for the employee making the request
+request_date (date): Date on which the request was made
+start_date (date): Start date for the requested time off
+end_date (date): End date for the requested time off
+request_status (string): Status of the time off request (e.g. pending, approved, denied)
+Employee Rewards and Recognition
+
+recognition_id (string): Unique identifier for a reward or recognition
+employee_id (string): Identifier for the employee receiving the reward or recognition
+recognition_date (date): Date on which the recognition was given
+recognition_type (string): Type of recognition (e.g. award, certificate, bonus)
+recognition_reason (string): Reason for the recognition
+Employee Engagement
+
+engagement_id (string): Unique identifier for an employee engagement initiative
+initiative_name (string): Name of the engagement initiative
+initiative_description (string): Description of the engagement initiative
+initiative_type (string): Type of engagement initiative (e.g. team building, wellness program)
+start_date (date): Start date for the engagement initiative
+end_date (date): End date for the engagement initiative
+employee_participants (list of strings): Identifiers for the employees participating in the initiative
+Employee Referrals
+
+referral_id (string): Unique identifier for an employee referral
+referring_employee_id (string): Identifier for the employee making the referral
+referred_employee_id (string): Identifier for the employee being referred
+referral_date (date): Date on which the referral was made
+referral_status (string): Status of the referral (e.g. pending, hired, rejected)
+Employee Onboarding
+
+onboarding_id (string): Unique identifier for an employee onboarding process
+employee_id (string): Identifier for the employee being onboarded
+onboarding_date (date): Date on which the onboarding process begins
+onboarding_steps (list of strings): Steps in the onboarding process (e.g. orientation, training, paperwork)
+onboarding_status (string): Status of the onboarding process (e.g. in progress, completed, delayed)
+These additional classes and properties can help manage various aspects of employee relations, such as time off requests, recognition, engagement, referrals, and onboarding.

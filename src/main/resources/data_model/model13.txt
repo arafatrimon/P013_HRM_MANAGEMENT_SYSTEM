@@ -1,0 +1,51 @@
+Sure, here are some more additional properties and classes that could be added to the human resource management system schema:
+
+Employee Review
+
+review_id (string): Unique identifier for an employee review
+employee_id (string): Identifier for the employee being reviewed
+reviewer_id (string): Identifier for the employee conducting the review
+review_date (date): Date on which the review is being conducted
+review_type (string): Type of review being conducted (e.g. performance review, 360-degree review)
+review_rating (int): Rating assigned to the employee being reviewed
+review_comments (string): Comments provided as part of the employee review
+Salary Adjustment
+
+adjustment_id (string): Unique identifier for a salary adjustment
+employee_id (string): Identifier for the employee receiving the salary adjustment
+adjustment_date (date): Date on which the salary adjustment is being made
+previous_salary (float): Employee's previous salary
+new_salary (float): Employee's new salary
+reason 
+posting_date (date): Date on which the job posting was created
+
+deadline (date): Deadline for submitting applications for the job
+job_requirements (string): Requirements for the job (e.g. education, experience)
+job_status (string): Status of the job posting (e.g. open, closed, filled)
+Training
+
+training_id (string): Unique identifier for a training program
+training_title (string): Title of the training program
+training_description (string): Description of the training program
+training_type (string): Type of training program (e.g. on-the-job, classroom)
+trainer_id (string): Identifier for the employee conducting the training
+start_date (date): Date on which the training program starts
+end_date (date): Date on which the training program ends
+attendees (list of strings): Identifiers for the employees attending the training program
+Payroll
+
+payroll_id (string): Unique identifier for a payroll cycle
+start_date (date): Start date for the payroll cycle
+end_date (date): End date for the payroll cycle
+total_earnings (float): Total earnings for the payroll cycle
+total_deductions (float): Total deductions for the payroll cycle
+net_pay (float): Net pay for the payroll cycle
+employee_id (string): Identifier for the employee receiving the payroll
+Termination
+
+termination_id (string): Unique identifier for an employee termination
+employee_id (string): Identifier for the employee being terminated
+termination_date (date): Date on which the termination is taking place
+termination_reason (string): Reason for the termination
+exit_interview (string): Notes from the exit interview conducted with the employee
+These additional classes and properties can further enhance the functionality and capabilities of the human resource management system.

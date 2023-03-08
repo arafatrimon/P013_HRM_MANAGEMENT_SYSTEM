@@ -1,0 +1,66 @@
+Sure, here are some additional classes and properties that could be added to the human resource management system schema:
+
+Performance Review
+
+review_id (string): Unique identifier for a performance review
+employee_id (string): Identifier for the employee being reviewed
+reviewer (employee object): Employee who is conducting the review
+review_date (date): Date on which the review is being conducted
+performance_score (float): Score given to the employee's performance
+review_notes (string): Notes or comments about the employee's performance
+improvement_plan (string): Plan for improvement or development for the employee
+Benefits
+
+benefit_id (string): Unique identifier for a benefit
+benefit_name (string): Name of the benefit
+benefit_description (string): Description of the benefit
+benefit_coverage (float): Amount or percentage covered by the company for the benefit
+benefit_cost (float): Cost of the benefit for the employee
+eligible_employees (list of employee objects): List of employees who are eligible for the benefit
+enrollment_deadline (date): Deadline for employees to enroll in the benefit
+Payroll
+
+payroll_id (string): Unique identifier for a payroll entry
+employee_id (string): Identifier for the employee receiving the payroll
+pay_date (date): Date on which the payroll is being issued
+pay_period_start_date (date): Start date for the pay period
+pay_period_end_date (date): End date for the pay period
+hours_worked (float): Number of hours worked by the employee in the pay period
+hourly_rate (float): Hourly rate for the employee
+gross_pay (float): Gross pay for the pay period
+deductions (float): Total amount deducted from the employee's pay for the pay period
+net_pay (float): Net pay for the pay period after deductions
+Performance Metric
+
+metric_id (string): Unique identifier for a performance metric
+metric_name (string): Name of the performance metric
+metric_description (string): Description of the performance metric
+metric_target (float): Target value for the performance metric
+metric_actual (float): Actual value for the performance metric
+metric_variance (float): Variance between the target and actual values for the performance metric
+Skill
+
+skill_id (string): Unique identifier for a skill
+skill_name (string): Name of the skill
+skill_description (string): Description of the skill
+employees (list of employee objects): List of employees who possess the skill
+training_courses (list of training_course objects): List of training courses related to the skill
+Job Posting
+
+posting_id (string): Unique identifier for a job posting
+job_title (string): Title of the job posting
+job_description (string): Description of the job posting
+job_requirements (string): Requirements for the job posting
+job_location (string): Location of the job posting
+job_salary (float): Annual salary for the job posting
+job_status (string): Status of the job posting (e.g. open, closed, filled)
+job_applicants (list of job_application objects): List of job applications for the job posting
+Recruiter
+
+recruiter_id (string): Unique identifier for a recruiter
+first_name (string): First name of the recruiter
+last_name (string): Last name of the recruiter
+email (string): Email address of the recruiter
+phone_number (string): Phone number of the recruiter
+job_postings (list of job_posting objects): List of job postings handled by the recruiter
+job_applications (list of job_application objects): List of job applications handled by the recruiter

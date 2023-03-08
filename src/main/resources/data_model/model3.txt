@@ -1,0 +1,74 @@
+Certainly! Here are some more classes and properties, along with additional details:
+
+Employee
+
+employee_id (string): Unique identifier for an employee
+first_name (string): Employee's first name
+last_name (string): Employee's last name
+email (string): Employee's email address
+phone (string): Employee's phone number
+hire_date (date): Date the employee was hired
+salary (float): Employee's current salary
+job_title (string): Employee's current job title
+department_id (string): Identifier for the department the employee works in
+Department
+
+department_id (string): Unique identifier for a department
+department_name (string): Name of the department
+manager_id (string): Identifier for the department manager
+Manager
+
+manager_id (string): Unique identifier for a manager
+first_name (string): Manager's first name
+last_name (string): Manager's last name
+email (string): Manager's email address
+phone (string): Manager's phone number
+hire_date (date): Date the manager was hired
+department_id (string): Identifier for the department the manager is managing
+Attendance
+
+attendance_id (string): Unique identifier for an attendance record
+employee_id (string): Identifier for the employee the attendance record belongs to
+check_in_time (timestamp): Timestamp for when the employee checked in for work
+check_out_time (timestamp): Timestamp for when the employee checked out from work
+Leave
+
+leave_id (string): Unique identifier for a leave request
+employee_id (string): Identifier for the employee who requested the leave
+start_date (date): Start date of the requested leave
+end_date (date): End date of the requested leave
+reason (string): Reason for the requested leave
+status (string): Status of the leave request (e.g. approved, denied, pending)
+Payroll
+
+payroll_id (string): Unique identifier for a payroll record
+employee_id (string): Identifier for the employee the payroll record belongs to
+pay_date (date): Date the employee was paid
+pay_period_start (date): Start date of the pay period
+pay_period_end (date): End date of the pay period
+hours_worked (float): Number of hours the employee worked during the pay period
+hourly_rate (float): Employee's hourly rate
+gross_pay (float): Employee's gross pay for the pay period
+tax (float): Amount of taxes withheld from the employee's pay
+net_pay (float): Employee's net pay after taxes
+Benefit
+
+benefit_id (string): Unique identifier for a benefit
+employee_id (string): Identifier for the employee who is receiving the benefit
+benefit_type (string): Type of benefit (e.g. health insurance, dental insurance, 401k)
+start_date (date): Start date of the benefit
+end_date (date): End date of the benefit
+cost (float): Cost of the benefit
+provider (string): Provider of the benefit (e.g. insurance company, investment firm)
+Training
+
+training_id (string): Unique identifier for a training event
+employee_id (string): Identifier for the employee who attended the training
+training_type (string): Type of training (e.g. safety training, software training)
+training_date (date): Date the training took place
+trainer (string): Trainer who conducted the training
+duration (float): Duration of the training in hours
+Job Posting
+
+job_posting_id (string): Unique identifier for a job posting
+department_id (string): Identifier for the department the job posting
